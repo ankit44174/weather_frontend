@@ -21,7 +21,7 @@ function loadPreviousCities() {
 
 // Fetch weather data from OpenWeather API
 async function fetchWeather(city) {
-    const response = await fetch(`http://localhost:3000/weather?city=${city}`);
+    const response = await fetch(`https://weather-backend-2b2c.onrender.com/weather?city=${city}`);
     
     
     console.log(response,"res")
